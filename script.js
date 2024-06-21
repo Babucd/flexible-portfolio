@@ -39,6 +39,25 @@ function showSidebar(){
         active = active + 1 < items.length ? active + 1 : active;
         loadShow();
     }
+
+
+
+ // adding a moving animation 
+    function scrollToSection() {
+        document.getElementById('project-1').scrollIntoView({ behavior: 'smooth' });
+      }
+
+      
+  function scrollToSectionhome() {
+    document.getElementById('home-1').scrollIntoView({ behavior: 'smooth' });
+  }
+  function scrollToSectionabout() {
+    document.getElementById('about-1').scrollIntoView({ behavior: 'smooth' });
+  }
+  function scrollToSectioncontact() {
+    document.getElementById('contact-1').scrollIntoView({ behavior: 'smooth' });
+  }
+
     prev.onclick = function(){
         active = active - 1 >= 0 ? active - 1 : active;
         loadShow();
