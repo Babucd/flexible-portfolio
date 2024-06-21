@@ -11,55 +11,58 @@
       <ul class="sidebar">
         <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"></path></svg></a></li>
         <li><a href="https://babucd.github.io/onther-portfolio-Babu/">New Portfolio</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Project</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" onclick="scrollToSectionhome();">Home</a></li>
+        <li><a href="#" onclick="scrollToSectionabout();">About</a></li>
+        <li><a href="#" onclick="scrollToSection();">Project</a></li>
+        <li><a href="#" onclick="scrollToSectioncontact();">Contact</a></li>
       </ul>
       <ul>
         <li><a href="#">logo</a></li>
         <li><a href="https://babucd.github.io/onther-portfolio-Babu/">New Portfolio</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li class="hideOnMobile"><a href="#">Project</a></li>
-        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li><a href="#" onclick="scrollToSectionhome();">Home</a></li>
+        <li><a href="#" onclick="scrollToSectionabout();">About</a></li>
+        <li class="hideOnMobile"><a href="#" onclick="scrollToSection();">Project</a></li>
+        <li class="hideOnMobile" onclick="scrollToSectioncontact();"><a href="#">Contact</a></li>
         <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"></path></svg></a></li>
       </ul>
     </nav>
     
 
-
+<section id="home-1">
     <div class="contact">
       <div class="social">
-          <a href="#">
+          <a href="https://github.com/Babucd">
             <img src= "./git.png"  class="tw">
           </a>
         </div><br>
       <div class="social">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/-babu-natarajan-43-/">
             <img  src= "./in.png" class="tw">
           </a>
         </div><br>
       <div class="social">
-          <a href="#">
+          <a href="https://github.com/Babucd">
             <img src= "./tw.png" class="tw">
           </a>
         </div>
         <br>
       <div class="social">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/-babu-natarajan-43-/">
             <img src= "./yt.png" class="tw">
           </a>
         </div><br>
      </div>
+     
      <div class="Header">
       <h1 class="h1">Hi, i'm Babu<span >Natarajan</span></h1>
       <br>
       <p class="ptag">A Frontend focused Web Developer building the Frontend of Websites and Web Applications <br>that leads to the success of the overall product</p>
    </div>
-  <div class="button">
+  <div class="button" onclick="scrollToSection();">
    Project
   </div>
+</section>
+<section id="about-1">
  <div class="aboutme">
   <h4>ABOUT ME</h4></div>
   <p class="do">Here you will find more information about me, what I do, and my current skills <br>mostly in terms of programming and technology</p>
@@ -89,7 +92,8 @@
       </div>
     </div>
   </div>
-
+</section>
+<section id="project-1">
   <h1 class="pro">Project</h1>
   
 
@@ -132,7 +136,8 @@
     </div>
 </div>
 
-
+</section>
+<section id="contact-1">
 <div class="get"><h2 >Contact</h2>
 <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p></div>
 <div class="container">
@@ -151,33 +156,33 @@
   </form>
 </div>
 
-
+</section>
 <footer class="footer">
   <div class="container">
     <div class="col1">
       <a href="#" class="brand">logo</a>
       <ul class="media-icons">
         <li>
-          <a href="#"><img src="./git.png" alt="git" class="gitpng"></a>
+          <a href="https://github.com/Babucd"><img src="./git.png" alt="git" class="gitpng"></a>
         </li>
         <li>
-          <a href="#"><img src="./in.png" alt="git" class="gitpng"></a>
+          <a href="https://www.linkedin.com/in/-babu-natarajan-43-/"><img src="./in.png" alt="git" class="gitpng"></a>
         </li>
         <li>
-          <a href="#"><img src="./tw.png" alt="git" class="gitpng"></a>
+          <a href="https://github.com/Babucd"><img src="./tw.png" alt="git" class="gitpng"></a>
         </li>
         <li>
-          <a href="#"><img src="./yt.png" alt="git" class="gitpng"></a>
+          <a href="https://github.com/Babucd"><img src="./yt.png" alt="git" class="gitpng"></a>
         </li>
       </ul>
     </div>
     <div class="col2">
       <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#" onclick="scrollToSectionhome();">Home</a></li>
+        <li><a href="#" onclick="scrollToSectionabout();">About</a></li>
         <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#" onclick="scrollToSectioncontact();">Skills</a></li>
+        <li><a href="#" onclick="scrollToSectioncontact();">Contact</a></li>
         <p>Thank you for your time, goodbye!</p>
       </ul>
     </div>
